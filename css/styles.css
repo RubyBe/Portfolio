@@ -1,5 +1,17 @@
 .sidebar {
   width: 10%;
   float: right;
-  border: black;
+  background-color: rgba(190, 187, 187, .5);
+}
+
+.important {
+  text-align: center;
+}
+
+.details {
+  float: left;
+}
+
+.overview {
+  float: left;
 }
