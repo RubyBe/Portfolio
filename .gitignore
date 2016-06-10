@@ -1,0 +1,10 @@
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+log/*
+/tmp/*
+
+# Ignore all DS Store files
+/.DS_Store
+/Public/.DS_Store
