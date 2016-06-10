@@ -8,3 +8,5 @@ log/*
 # Ignore all DS Store files
 /.DS_Store
 /Public/.DS_Store
+/css/.DS_Store
+.DS_Store
