@@ -41,3 +41,7 @@ body {
 .carousel-indicators li {
 	border-color: #222;
 }
+
+.footer {
+  clear: both;
+}
