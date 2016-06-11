@@ -2,8 +2,9 @@ body {
   font-family: sans-serif;
 }
 
+
 .sidebar {
-  width: 10%;
+  width: 100%;
   float: right;
   background-color: rgba(190, 187, 187, .5);
 }
@@ -40,4 +41,9 @@ body {
 }
 .carousel-indicators li {
 	border-color: #222;
+}
+
+.fruit {
+  text-align: center;
+  padding-top: 20px;
 }
