@@ -35,8 +35,17 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">TODO</a></li>
-                <li><a href="#contact">TODO</a></li>
+                <li class="dropdown">
+                  <a data-toggle="dropdown" data-target="#">About<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">twoDudes</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Business Projects</a></li>
+                    <li><a href="#">Course Samples</a></li>
+                    <li><a href="#">Science Publications</a></li>
+                    <li><a href="#">Web & App Projects</a></li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
@@ -76,7 +85,10 @@
           <div class="item">
             <div class="slide4">
               <h1>Art</h1>
-              <p class="lead">An artist working in acrylics, oils, and multimedia</p>
+              <p class="lead">An artist and designer working in acrylics, oils, multimedia, and Windows apps</p>
+              <p class="btn-group">
+                <a class="btn btn-default btn-lg hidden-xs" data-toggle="modal" href="#textModal">Text me a link to a sample app</a>
+              </p>
             </div>
           </div>
       </div>
@@ -90,12 +102,41 @@
     </div>
     <!-- End of jumbotron:carousel -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="textModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">We'll Text You</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+                <input type="tel" class="form-control" id="mobilePhone" placeholder="Mobile Phone">
+              </div>
+              <div class="form-group">
+                <select class="form-control">
+                  <option>Android</option>
+                  <option>iOS</option>
+                  <option>Windows</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary" data-dismiss="modal">Send me link</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+
     <!-- Main content body -->
     <div class="container-fluid">
       <div class="container overview">
-
         <div class="row">
-
           <div class="row">
             <div class="col-md-3">
               <b class="glyphicon glyphicon-briefcase"></b>
@@ -108,20 +149,16 @@
             <div class="col-md-3">
               <b class="glyphicon glyphicon-education"></b>
               <h3>Education & Training</h3>
-                <li>Curriculum development</li>
-                <ul>
-                  <li>Junior college</li>
-                  <li>University</li>
-                </ul>
-                <li>IT Pro and Developer content</li>
-                <li>Certification exams</li>
+                <li>University-level curriculum development</li>
+                <li>IT Pro and Software Developer content development</li>
+                <li>IT Pro and Software Developer certification exams</li>
             </div>
             <div class="col-md-3">
               <b class="glyphicon glyphicon-eye-open"></b>
               <h3>Science</h3>
                 <li>Genetics & Molecular Biology</li>
                 <li>Fellow, American Heart Association</li>
-                <li>Electron Microscopy</li>
+                <li>Multiple peer-reviewed publications</li>
             </div>
             <div class="col-md-3">
               <b class="glyphicon glyphicon-picture"></b>
@@ -137,6 +174,7 @@
                     <p class="fruit">Check us out at our<a href="http://twodudesapps.azurewebsites.net/"><em>website.</em></a></p>
                   </div>
                 </div>
+                <br>
               </div>
 
               <!-- <div class="col-md-2">
@@ -166,7 +204,7 @@
                 <li>2013-2014: Data mining using R for Server and Cloud Content Services and International group.</li>
                 <li>2008-2013: Developed and implemented a business intelligence strategy for the Server and Cloud division's User Assistance group.</li>
                 <li>2003-2008: Developed and implemented a product quality frame and performance reporting strategy for the Training and Certification business.</li>
-                <li>1998-2003: Various people management roles in test, development, support, media, and release services teams in the Training and Certification businesse.</li>
+                <li>1998-2003: Various people management roles in test, development, support, media, and release services teams in the Training and Certification business.</li>
               </ul>
               <h3>Education & Certifications</h3>
               <ul>
@@ -181,16 +219,16 @@
               <h3>Publications & Presentations</h3>
               <h4>Microsoft ThinkWeek</h4>
                 <ul>
-                  <li>Benavente, R.S. 2013. Up-Zipf the Quality! Microsoft ThinkWeek 2013 Submission (published, July 2013)</li>
-                  <li>Benavente, R.S. 2010. Product Usage Patterns, Parallel Thought Processing, and the Information Experience. Microsoft ThinkWeek 2010 Submission (in top 10% of downloaded papers)</li>
+                  <li>Benavente, R.S. 2013. Up-Zipf the Quality! Microsoft ThinkWeek 2013 Submission. <em>Thoughts on the Principle of Least Effort and its impact on the product development process.</em></li>
+                  <li>Benavente, R.S. 2010. Product Usage Patterns, Parallel Thought Processing, and the Information Experience. Microsoft ThinkWeek 2010 Submission. <em>Thoughts on the Pareto Principle and how we might develop product whose usage is more evenly dispersed (in top 10% of downloaded papers).</em></li>
                 </ul>
               <h4>Industry</h4>
                 <ul>
                   <li>Andersen, Rebekka, S. Benavente, D. Clark, W. Hart-Davidson, C. Rude and J. Hackos. 2013. Open Research for Academics and Industry Professionals. Communication Design Quarterly, August, Vol. 1, Issue 4, p. 42.</li>
-                  <li>University of Cincinnati, Cincinnati, Ohio. October 2013 (invited). Academic SIG Partnership Pre-conference, CPTSC 2013. “Research Priorities” panel member.</li>
-                  <li>Savannah, Georgia. September 2013 (invited). The Center for Information-Development Management. “Building a Staff Model for the Future” panel member.</li>
-                  <li>Monterey, California. September 2012. The Center for Information-Development Management. Consuming Competitive Research (poster presentation), Business Intelligence for a Content Organization (poster presentation)</li>
-                  <li>Orlando, Florida. November 2009. ProjectWorld & World Congress for Business Analysts – Developed and facilitated full-day workshop on Program Management.</li>
+                  <li>University of Cincinnati, Cincinnati, Ohio. October 2013 (invited). Academic SIG Partnership Pre-conference, CPTSC 2013. <em>Research Priorities</em> panel member.</li>
+                  <li>Savannah, Georgia. September 2013 (invited). The Center for Information-Development Management. <em>Building a Staff Model for the Future</em> panel member.</li>
+                  <li>Monterey, California. September 2012. The Center for Information-Development Management. Two presentations: <em>Consuming Competitive Research</em> and <em>Business Intelligence for a Content Organization</em>.</li>
+                  <li>Orlando, Florida. November 2009. ProjectWorld & World Congress for Business Analysts. Developed and facilitated full-day workshop on <em>Program Management at Microsoft</em>.</li>
                 </ul>
             </div>
           </div>
