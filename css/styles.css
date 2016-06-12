@@ -25,34 +25,28 @@ body {
 	border-color: #222;
 }
 /*Universal settings for all slides*/
-/*.item{
-  height: 220px;
+.item{
   color: white;
-  padding-left: 15px;
-}*/
+}
 /*Individual slide backgrounds*/
 .slide1 {
-    background-image: url(http://www.educationalresourceassociates.com/images/BUILDINGS.gif);
+    background-image: url('../img/buildings.gif');
     height: 220px;
-    color: white;
     padding-left: 15px;
 }
 .slide2 {
-    background-image: url(http://tse1.mm.bing.net/th?&id=OIP.Madf23c574eed36d5d883368c17ce233ao0&w=300&h=233&c=0&pid=1.9&rs=0&p=0&r=0);
+    background-image: url('../img/university.jpg');
     height: 220px;
-    color: white;
     padding-left: 15px;
 }
 .slide3 {
     background-image: url(http://www.publicdomainpictures.net/pictures/60000/nahled/-1378272724L7c.jpg);
     height: 220px;
-    color: white;
     padding-left: 15px;
 }
 .slide4 {
-    background-image: url(http://tse4.mm.bing.net/th?id=OIP.Ma5d4cf783a7616b39d57988e0ec4c62eH0&pid=15.1);
+    background-image: url('../img/art.jpg');
     height: 220px;
-    color: white;
     padding-left: 15px;
 }
 /*End of carousel*/
