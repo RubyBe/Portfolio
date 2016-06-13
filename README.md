@@ -14,6 +14,10 @@ Assuming you're on a computer viewing this and have an input device, no further 
 An input device such as a mouse, touchpad, keyboard or touch-sensitive screen.
 ```
 
+### Link to GitHub Page
+
+View the page [here](https://rubybe.github.io/Portfolio/#dudeCarousel)
+
 ### Installing
 
 No installation is necessary.
