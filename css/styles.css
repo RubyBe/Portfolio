@@ -51,8 +51,13 @@ body {
 }
 /*End of carousel*/
 
-.item {
+ul {
+  list-style:  none;
+}
 
+li {
+  display: inline;
+  list-style-type: none;
 }
 
 .fruit {
