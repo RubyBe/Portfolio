@@ -2,9 +2,9 @@
 
 An overview of my skillsets and experience.
 
-## Getting Started
+### Link to GitHub Page
 
-Click "" to see view the html version of this project.
+[Click](https://rubybe.github.io/Portfolio/) to see view the html version of this project.
 
 ### Prerequisities
 
@@ -13,10 +13,6 @@ Assuming you're on a computer viewing this and have an input device, no further 
 ```
 An input device such as a mouse, touchpad, keyboard or touch-sensitive screen.
 ```
-
-### Link to GitHub Page
-
-[Click](https://rubybe.github.io/Portfolio/) to see view the html version of this project.
 
 ### Installing
 
