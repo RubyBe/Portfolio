@@ -16,7 +16,7 @@ An input device such as a mouse, touchpad, keyboard or touch-sensitive screen.
 
 ### Link to GitHub Page
 
-View the page [here](https://rubybe.github.io/Portfolio/#dudeCarousel)
+[Click](https://rubybe.github.io/Portfolio/) to see view the html version of this project.
 
 ### Installing
 
