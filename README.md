@@ -42,3 +42,9 @@ This project is not licensed
 ## Acknowledgments
 
 * With guidance from [Epicodus](http://epicodus.com/)
+* 
+### License
+
+#### Copyright (c) 2016 Sid Benavente
+
+#### This software is licensed under the MIT license.
